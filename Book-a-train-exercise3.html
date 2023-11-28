@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Book a train</title>
+  <link href="style3.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=PT Sans">
+</head>
+<body>
+  <main>
+    <header>
+      <h1>ÅKA TÅG</h1>
+    </header>
+    <section class="from">
+        <h2>STOCKHOLM</h2>
+        <p class="font--small">10:30</p>
+    </section >
+     
+    <section class="destination">
+        <h2>GÖTEBORG</h2>
+        <p class="font--small">14:45</p>
+    </section>
+
+    <form>
+      <div class="train-class">
+        <input type="radio" id="second-class" checked>
+        <label for="second-class">2:a klass</label>
+      </div>
+
+      <div class="train-class">
+        <input type="radio" id="first-class" >
+        <label for="first-class">1:a klass</label>
+      </div>
+
+      <div class="input-group">
+        <label for="no-tickets">Antal biljetter</label>
+        <br>
+        <select class="input-group__box" id="no-tickets" type="number" value="1">
+          <option value="1">1</option>
+          <option value="2">2</option>
+          <option value="3">3</option>
+       </select>
+      </div>
+
+      <div class="input-group">
+        <label for="titel">Titel</label>
+        <br>
+        <select id="titel" class="input-group__box " value="Ms">
+          <option value="Ms">Ms</option>
+          <option value="Mrs">Mrs</option>
+          <option value="Mr">Mr</option>
+        </select>
+      </div>
+
+      <div class="input-group--large">
+        <label for="fname">Förnamn</label>
+        <br>
+        <input id="fname" class="input-group__box input-group--large " value="Greta">
+      </div>
+
+      <div class="input-group--large">
+        <label for="ename">Efternamn</label>
+        <br>
+        <input id="ename" class="input-group__box" value="Thunberg">
+      </div>
+
+      <div class="input-group--large">  
+        <input type="checkbox" id="accept" >
+        <label for="accept">Godkänner villkoren</label>
+      </div>
+
+      <div class="input-group--large"> 
+        <input type="submit" id="submit-btn" value="Boka biljetter">
+      </div>
+    </form>
+  </main>
+  
+</body>
+</html>
