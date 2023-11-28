@@ -1,0 +1,57 @@
+
+* {
+  font-family: "Fjalla One";
+  box-sizing: border-box;
+}
+
+h1 {
+  font-size: 40px;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+main {
+  min-width:fit-content;
+  border-radius: 0.5rem;
+  border:0.25rem solid darkblue;
+  padding:2rem 4rem;
+  box-shadow: -1rem 1rem rgba(68, 51, 133, 0.2)
+}
+
+form {
+  display:flex;
+  flex-direction: column;
+}
+
+label {
+  color:#5c29db;
+  font-size: 24px;
+  margin-top:2rem;
+}
+
+input {
+  font-size: 24px;
+  border:none;
+  border-bottom: 0.2rem solid black;
+  margin-bottom: 2rem;
+  padding-bottom: 1rem;
+  min-width: 20rem;
+}
+
+#tip {
+  border-bottom: 0.2rem solid #5c29db;
+}
+
+#submit-btn {
+  background-color: #443385;
+  border:none;
+  color: white;
+  font-size: 30px;
+  margin-top:2rem;
+  padding:2rem;
+  box-shadow: -0.5rem 0.5rem rgba(68, 51, 133, 0.2)
+}
